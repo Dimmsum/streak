@@ -2,7 +2,17 @@ function LandingPage(){
 
 return(
     <>
-    <h1>Landing Page</h1>
+
+    {/* This div is to be a image container */}
+    <div id="img-container"></div>
+    
+    {/* Buttons Container
+     */}
+<div className="flex flex-col items-center justify-center h-screen ">       
+        <button type ="button">Sign Up</button>
+        <button type = "button">Continue with Google</button>
+        <button type ="button">Login</button>
+    </div>
     </>
 );
 }
